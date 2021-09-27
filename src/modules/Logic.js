@@ -62,7 +62,7 @@ class Logic {
         currentList = dataFromStorage;
     }
 
-    setCurrentListToARemainingList() {
+    setCurrentListToBeOneOfTheRemainingLists() {
         const firstList = Object.keys(lists)[0];
         this.makeCurrentList(firstList);
     }
